@@ -337,12 +337,12 @@
 		<!--XML File Location-->
 		<dict>
 			<key>Key</key><string>externalSettingsFile</string>
-			<key>Value</key><string>http://</string>
+			<key>Value</key><string>https://raw.githubusercontent.com/factorymedia/kiosk-pro-config/master/twc/pro.xml</string>
 		</dict>
 		<!--Update Period (minutes)-->
 		<dict>
 			<key>Key</key><string>localSettingsUpdatePeriod</string>
-			<key>Value</key><string></string>
+			<key>Value</key><string>1</string>
 		</dict>
 
 
