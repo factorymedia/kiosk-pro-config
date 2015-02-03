@@ -94,7 +94,7 @@
 		<!--Allowed Domains-->
 		<dict>
 			<key>Key</key><string>whiteList</string>
-			<key>Value</key><string>http://totalwomenscycling.com;http://roadcyclinguk.com</string>
+			<key>Value</key><string>totalwomenscycling.com;roadcyclinguk.com;facebook.com</string>
 		</dict>
 		<!--Restricted Domains-->
 		<dict>
