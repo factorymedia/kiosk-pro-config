@@ -171,7 +171,7 @@
 		<!--Enable Links on Standard Navigation Bar-->
 		<dict>
 			<key>Key</key><string>customLinksEnabled</string>
-			<key>Value</key><false/>
+			<key>Value</key><true/>
 		</dict>
 		<!--Link Settings-->
 				<!--RGB Button Background Color-->
@@ -197,12 +197,12 @@
 				<!--Label 2-->
 				<dict>
 					<key>Key</key><string>clLabel2</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>TWC Website</string>
 				</dict>
 				<!--Link 2-->
 				<dict>
 					<key>Key</key><string>clLink2</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>http://totalwomenscycling.com</string>
 				</dict>
 				<!--Label 3-->
 				<dict>
