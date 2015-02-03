@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kioskSettings</key>
+	<array>
+
+	<!--Compatible with Kiosk Pro 5.5, updated December 16, 2014, more information available at http://www.kioskproapp.com -->
+
+	<!--Before making changes to this .xml file please note the following:
+		1. Do not add spaces or line breaks before <?xml version="1.0" encoding="UTF-8"?> at the top of the file.
+		2. Any values with the tags <integer> or <real> cannot be left blank; they must have an entry.
+		3. If you do not wish to control a specific setting remotely, you can delete the entire entry from (and including) the opening <dict> tag to (and including) the closing </dict> tag.
+		4. Ampersands ('&') are a reserved character in XML. If your url uses one, you will need to use the unit code "&amp;" instead-->
+
+
+	<!--Settings Menu-->
+
+
+		<!--Show Settings In-App: 0 = On App Launch, 1 = Never, 2 = On Touch Gesture and Passcode-->
+		<dict>
+			<key>Key</key><string>settingsShowingOption</string>
+			<key>Value</key><integer>2</integer>
+		</dict>
+		<!--Passcode-->
+		<dict>
+			<key>Key</key><string>settingsPassCode</string>
+			<key>Value</key><string>4736</string>
+		</dict>
+
+
+		<!--General-->
+		<!--Unique iPad ID-->
+		<dict>
+			<key>Key</key><string>uniqueiPadID</string>
+			<key>Value</key><string></string>
+		</dict>
+		<!--Homepage-->
+		<dict>
+			<key>Key</key><string>homePage</string>
+			<key>Value</key><string>http://totalwomenscycling.com/competition-builder/593/entries/new?mode=kiosk</string>
+		</dict>
+
+
+		<!--Display-->
+		<!--Show Top iPad Information Bar-->
+		<dict>
+			<key>Key</key><string>showStatusBar</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Show Address Bar-->
+		<dict>
+			<key>Key</key><string>showAddressBar</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Show Bottom Navigation Bar-->
+		<dict>
+			<key>Key</key><string>showNavigationBar</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Show Progress Indicator-->
+		<dict>
+			<key>Key</key><string>showLoadingProgress</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Text Selection for Accessibility-->
+		<dict>
+			<key>Key</key><string>textSelection</string>
+			<key>Value</key><false/>
+		</dict>
+		<!-- Fix Window to Viewport-->
+		<dict>
+			<key>Key</key><string>disableWebViewBouncing</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Disable Zoom-->
+		<dict>
+			<key>Key</key><string>zoomDisabled</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Disable Touch-->
+		<dict>
+			<key>Key</key><string>viewOnly</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Page Loading Background Color)-->
+		<dict>
+			<key>Key</key><string>pageReloadBackgroundColor</string>
+			<key>Value</key><string>255,255,255</string>
+		</dict>
+
+
+		<!--Navigation-->
+		<!--Allowed Domains-->
+		<dict>
+			<key>Key</key><string>whiteList</string>
+			<key>Value</key><string>http://totalwomenscycling.com;http://roadcyclinguk.com</string>
+		</dict>
+		<!--Restricted Domains-->
+		<dict>
+			<key>Key</key><string>blackList</string>
+			<key>Value</key><string></string>
+		</dict>
+		<!--Apply Restrictions to Embedded Content-->
+		<dict>
+			<key>Key</key><string>kp_applyRestrictionsToEmbeddedContent</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Show Off-Domain Alert-->
+		<dict>
+			<key>Key</key><string>showSiteMessage</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Off-Domain Alert Text-->
+		<dict>
+			<key>Key</key><string>offDomainMessage</string>
+			<key>Value</key><string>Sorry, this site is not allowed.</string>
+		</dict>
+
+
+		<!--API Access-->
+		<!--Access JavaScript API: 0 = By Injection, 1 = By Import, 2 = Never -->
+		<dict>
+			<key>Key</key><string>accessJS_API</string>
+			<key>Value</key><integer>1</integer>
+		</dict>
+
+
+		<!--Timer Settings-->
+		<!--Idle Time Limit (seconds)-->
+		<dict>
+			<key>Key</key><string>idleTime</string>
+			<key>Value</key><integer>60</integer>
+		</dict>
+		<!--Refresh Homepage Every (minutes)-->
+		<dict>
+			<key>Key</key><string>refreshTime</string>
+			<key>Value</key><string>1</string>
+		</dict>
+		<!--Page Loading Time Limit (seconds)-->
+		<dict>
+			<key>Key</key><string>pageLoadTime</string>
+			<key>Value</key><string>30</string>
+		</dict>
+
+
+		<!--Visitor Management-->
+		<!--Browsing Time Limit: -1 = Forever, 5 = 5 min, 10 = 10 min, etc.-->
+		<dict>
+			<key>Key</key><string>browseTime</string>
+			<key>Value</key><integer>5</integer>
+		</dict>
+		<!--Good-Bye Page-->
+		<dict>
+			<key>Key</key><string>goodByePage</string>
+			<key>Value</key><string></string>
+		</dict>
+
+
+		<!--Custom Bottom Navigation Bar-->
+		<!--Standard Icon Color (0 = Red, 1 = Yellow, 2 = Green, 3 = Blue, 4 = Light Grey, 5 = Dark Grey, 6 = Black, 7 = White)-->
+		<dict>
+			<key>Key</key><string>navBarIconsColorScheme</string>
+			<key>Value</key><string>6</string>
+		</dict>
+		<!--Standard Bar Background (must be in RGB format)-->
+		<dict>
+			<key>Key</key><string>navBarBackgroundColor</string>
+			<key>Value</key><string>139,223,210</string>
+		</dict>
+		<!--Enable Links on Standard Navigation Bar-->
+		<dict>
+			<key>Key</key><string>customLinksEnabled</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Link Settings-->
+				<!--RGB Button Background Color-->
+				<dict>
+					<key>Key</key><string>clButtonBackgroundColor</string>
+					<key>Value</key><string>51,51,51</string>
+				</dict>
+				<!--RGB Text Color-->
+				<dict>
+					<key>Key</key><string>clButtonTextColor</string>
+					<key>Value</key><string>255,255,255</string>
+				</dict>
+				<!--Label 1-->
+				<dict>
+					<key>Key</key><string>clLabel1</string>
+					<key>Value</key><string>Enter TWC Competition</string>
+				</dict>
+				<!--Link 1-->
+				<dict>
+					<key>Key</key><string>clLink1</string>
+					<key>Value</key><string>http://totalwomenscycling.com/competition-builder/593/entries/new?mode=kiosk</string>
+				</dict>
+				<!--Label 2-->
+				<dict>
+					<key>Key</key><string>clLabel2</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Link 2-->
+				<dict>
+					<key>Key</key><string>clLink2</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Label 3-->
+				<dict>
+					<key>Key</key><string>clLabel3</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Link 3-->
+				<dict>
+					<key>Key</key><string>clLink3</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Label 4-->
+				<dict>
+					<key>Key</key><string>clLabel4</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Link 4-->
+				<dict>
+					<key>Key</key><string>clLink4</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Label 5-->
+				<dict>
+					<key>Key</key><string>clLabel5</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Link 5-->
+				<dict>
+					<key>Key</key><string>clLink5</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Label 6-->
+				<dict>
+					<key>Key</key><string>clLabel6</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Link 6-->
+				<dict>
+					<key>Key</key><string>clLink6</string>
+					<key>Value</key><string></string>
+				</dict>
+
+
+		<!--PDF Display-->
+		<!--Show Thumbnails-->
+		<dict>
+			<key>Key</key><string>pdfShowThumbs</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Show Page Numbers-->
+		<dict>
+			<key>Key</key><string>pdfShowPageNumbers</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Disable Zoom for PDFs-->
+		<dict>
+			<key>Key</key><string>pdfDisableZoom</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Page Transition Style: 0 = Scroll, 1 = Page Turn, 2 = Hyperlink Only-->
+		<dict>
+			<key>Key</key><string>pdfScrollingType</string>
+			<key>Value</key><integer>0</integer>
+		</dict>
+		<!--Scroll Orientation: 0 = Horizontal, 1 = Vertical -->
+		<dict>
+			<key>Key</key><string>pdfInfiniteScrollOrientation</string>
+			<key>Value</key><integer>0</integer>
+		</dict>
+		<!--Size to Fit: 0 = Horizontally, 1 = Vertically -->
+		<dict>
+			<key>Key</key><string>pdfSizeToFitOption</string>
+			<key>Value</key><integer>1</integer>
+		</dict>
+		<!--Background Image-->
+		<dict>
+			<key>Key</key><string>pdfBackgroundImageFile</string>
+			<key>Value</key><string>blue-gray.png</string>
+		</dict>
+
+
+		<!--Internet Access-->
+		<!--Detect Connection Errors-->
+        <dict>
+			<key>Key</key><string>showConnectionProblemPage</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--Custom Connection Problem Page-->
+        <dict>
+			<key>Key</key><string>customConnectionProblemPage</string>
+			<key>Value</key><string></string>
+		</dict>
+
+
+		<!--Memory Settings-->
+		<!--Clear Cache-->
+		<dict>
+			<key>Key</key><string>clearCache</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Accept Cookies: 0 = Never, 1 = From Visited, 2 = Always-->
+		<dict>
+			<key>Key</key><string>cookieAcceptPolicy</string>
+			<key>Value</key><integer>1</integer>
+		</dict>
+		<!--Clear Cookies-->
+		<dict>
+			<key>Key</key><string>clearCookies</string>
+			<key>Value</key><true/>
+		</dict>
+
+
+		<!--Printing-->
+		<!--AirPrint-->
+		<dict>
+			<key>Key</key><string>printEnabled</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Show AirPrint Icon-->
+		<dict>
+			<key>Key</key><string>showPrintIcon</string>
+			<key>Value</key><false/>
+		</dict>
+
+
+		<!--Remote Settings Control-->
+		<!--Enable-->
+		<dict>
+			<key>Key</key><string>remoteSettingsEnabled</string>
+			<key>Value</key><true/>
+		</dict>
+		<!--XML File Location-->
+		<dict>
+			<key>Key</key><string>externalSettingsFile</string>
+			<key>Value</key><string>http://</string>
+		</dict>
+		<!--Update Period (minutes)-->
+		<dict>
+			<key>Key</key><string>localSettingsUpdatePeriod</string>
+			<key>Value</key><string></string>
+		</dict>
+
+
+		<!--Email Notifications-->
+		<!--SMTP Server Settings-->
+				<!--From Email-->
+				<dict>
+					<key>Key</key><string>smtpFromEmail</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--To Email-->
+				<dict>
+					<key>Key</key><string>smtpToEmail</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--SMTP Server-->
+				<dict>
+					<key>Key</key><string>smtpServer</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--SMTP Ports-->
+				<dict>
+					<key>Key</key><string>smtpPorts</string>
+					<key>Value</key><string>25; 465; 587</string>
+				</dict>
+				<!--Requires Authentication-->
+				<dict>
+					<key>Key</key><string>smtpRequiresAuth</string>
+					<key>Value</key><true/>
+				</dict>
+				<!--User Name-->
+				<dict>
+					<key>Key</key><string>smtpUserName</string>
+					<key>Value</key><string></string>
+				</dict>
+				<!--Password-->
+				<dict>
+					<key>Key</key><string>smtpPassword</string>
+					<key>Value</key><string></string>
+			   </dict>
+			   <!--Enable SSL-->
+			   <dict>
+					<key>Key</key><string>smtpEnableSSL</string>
+					<key>Value</key><false/>
+			   </dict>
+		<!--Email on Power Supply Change-->
+		<dict>
+			<key>Key</key><string>emailOnPower</string>
+			<key>Value</key><false/>
+		</dict>
+		<!--Email on Remote Update of Settings-->
+		<dict>
+			<key>Key</key><string>emailOnRemoteSettingsChange</string>
+			<key>Value</key><false/>
+		</dict>
+
+
+		<!--Screen Brightness: maximum screen brightness = 1, minimum = 0; setting must be between 1 and 0-->
+		<dict>
+			<key>Key</key><string>manualControlOfBrightness</string>
+			<key>Value</key><real>1</real>
+		</dict>
+
+
+	<!-- Advanced Settings (Not Included In Main Menu) -->
+	<!-- You will need to remove the comment tags surrounding the <dict> tags of the setting you want to use -->
+
+		<!--Advanced Options-->
+		<!--Screen & Disable Tel: Links-->
+		<!--
+		<dict>
+			<key>Key</key>
+			<string>_kp_disableTelLinks_</string>
+			<key>Value</key>
+			<true/>
+		</dict>
+		-->
+		<!--Disable Touch Callouts-->
+		<!--
+		<dict>
+			<key>Key</key>
+			<string>_kp_disableDefaultCalloutShownWhenTouchAndHoldTarget_</string>
+			<key>Value</key>
+			<true/>
+		</dict>
+		-->
+		<!--Enable Automatic Reload on Homepage-->
+		<!--<dict>
+			<key>Key</key>
+			<string>_kp_useDocumentLocationReload_</string>
+			<key>Value</key>
+			<false/>
+		</dict>
+		-->
+		<!--Show Keyboard Automatically on Focus Event-->
+		<!--
+		<dict>
+			<key>Key</key>
+			<string>kp_showKeyboardAutomaticallyOnFocusEvent</string>
+			<key>Value</key>
+			<false/>
+		</dict>
+		-->
+
+		<!--Temporary Beta Settings-->
+		<!--Disable New 'Allowed &amp; Restricted' Domain Algorithm-->
+		<!--
+		<dict>
+			<key>Key</key>
+			<string>_kp_disableNewFilterRequestsAlgorithm_</string>
+			<key>Value</key>
+			<false/>
+		</dict>
+		-->
+		<!--Enable Drop-down Menus for iOS 8-->
+		<!--
+		<dict>
+			<key>Key</key>
+			<string>kp_enableDropdownsForiOS8</string>
+			<key>Value</key>
+			<false/>
+		</dict>
+		-->
+
+		<!--Troubleshooting-->
+		<!--Log App Events-->
+		<!--
+		<dict>
+			<key>Key</key>
+			<string>kp_logMode</string>
+			<key>Value</key>
+			<false/>
+		</dict>
+		-->
+		<!--Log WebKit Requests-->
+		<!--
+		<dict>
+			<key>Key</key>
+			<string>kp_logAllWebKitRequests</string>
+			<key>Value</key>
+			<false/>
+		</dict>
+		-->
+
+	</array>
+</dict>
+</plist>
