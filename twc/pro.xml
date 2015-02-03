@@ -61,7 +61,7 @@
 		<!--Show Progress Indicator-->
 		<dict>
 			<key>Key</key><string>showLoadingProgress</string>
-			<key>Value</key><true/>
+			<key>Value</key><false/>
 		</dict>
 		<!--Text Selection for Accessibility-->
 		<dict>
