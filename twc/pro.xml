@@ -38,7 +38,7 @@
 		<!--Homepage-->
 		<dict>
 			<key>Key</key><string>homePage</string>
-			<key>Value</key><string>http://totalwomenscycling.com/competition-builder/593/entries/new?mode=kiosk</string>
+			<key>Value</key><string>http://totalwomenscycling.com</string>
 		</dict>
 
 
@@ -187,22 +187,22 @@
 				<!--Label 1-->
 				<dict>
 					<key>Key</key><string>clLabel1</string>
-					<key>Value</key><string>Enter TWC Competition</string>
+					<key>Value</key><string>TWC Website</string>
 				</dict>
 				<!--Link 1-->
 				<dict>
 					<key>Key</key><string>clLink1</string>
-					<key>Value</key><string>http://totalwomenscycling.com/competition-builder/593/entries/new?mode=kiosk</string>
+					<key>Value</key><string>http://totalwomenscycling.com</string>
 				</dict>
 				<!--Label 2-->
 				<dict>
 					<key>Key</key><string>clLabel2</string>
-					<key>Value</key><string>TWC Website</string>
+					<key>Value</key><string>Enter TWC Competition</string>
 				</dict>
 				<!--Link 2-->
 				<dict>
 					<key>Key</key><string>clLink2</string>
-					<key>Value</key><string>http://totalwomenscycling.com</string>
+					<key>Value</key><string>http://totalwomenscycling.com/competition-builder/593/entries/new?mode=kiosk</string>
 				</dict>
 				<!--Label 3-->
 				<dict>
