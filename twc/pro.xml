@@ -33,7 +33,7 @@
 		<!--Unique iPad ID-->
 		<dict>
 			<key>Key</key><string>uniqueiPadID</string>
-			<key>Value</key><string></string>
+			<key>Value</key><string>FMiPad1</string>
 		</dict>
 		<!--Homepage-->
 		<dict>
